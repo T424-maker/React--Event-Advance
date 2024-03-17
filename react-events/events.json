@@ -1,0 +1,117 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ignacio Doe",
+      "image": "https://global-uploads.webflow.com/5eecfecbe625d195e35b89f2/624bfb093da7d92733c001c0_Ignacio%20Villafruela%20Rodr%C3%ADguez.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Bennett",
+      "image": "https://global-uploads.webflow.com/5eecfecbe625d195e35b89f2/624bfb401d7131c760ca1c63_Elieska%20Lensink.jpg"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "createdBy": 2,
+      "title": "Trampoline party",
+      "description": "Bounce around with your friends",
+      "image": "https://i.pinimg.com/736x/3d/2f/af/3d2faf4e3188d34a9fcdc00df59e77b0.jpg",
+      "attendedBy": [
+        1
+      ],
+      "location": "My back yard",
+      "startTime": "2023-03-10T18:00",
+      "endTime": "2023-05-26T10:21",
+      "categoryIds": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "createdBy": 2,
+      "title": "Laser Tag mania",
+      "description": "Let's play laser tag! ",
+      "image": "https://www.ctvnews.ca/polopoly_fs/1.5118552.1600965663!/httpImage/image.jpg_gen/derivatives/landscape_1020/image.jpg",
+      "attendedBy": [
+        2
+      ],
+      "location": "Blinded by the Lights Laser Tag, 15 Main St.",
+      "startTime": "2023-04-06T18:46",
+      "endTime": "2023-04-06T17:46",
+      "categoryIds": [
+        2
+      ]
+    },
+    
+    {
+      "id": 4,
+      "createdBy": 2,
+      "title": "Yoga",
+      "description": "It's a bit of a stretch.",
+      "image": "https://ymcasouthflorida.org/wp-content/uploads/2019/12/AA2I8910-scaled.jpg",
+      "attendedBy": [],
+      "location": "Shavasana Yoga School",
+      "startTime": "2023-04-20T21:41",
+      "endTime": "2023-04-30T15:00",
+      "categoryIds": [
+        1
+      ]
+    },
+    {
+      "createdBy": 1,
+      "title": "Paint Super Ball ",
+      "description": "Come with your besties ! ",
+      "image": "https://images.unsplash.com/photo-1614602355999-bc295cba75b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80",
+      "attendedBy": [
+        1
+      ],
+      "location": "15 Main St.",
+      "startTime": "2023-12-27T15:10",
+      "endTime": "2023-04-06T14:46",
+      "id": 5,
+      "categoryIds": [
+        1,
+        2
+      ]
+    },
+    {
+      "title": "Football",
+      "description": "Come participate in a Football Match",
+      "image": "https://images.pexels.com/photos/2209/people-men-grass-sport.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2023-04-30T22:08",
+      "endTime": "2023-04-30T22:11",
+      "id": 6,
+      "createdBy": 2,
+      "location": "Rotterdam",
+      "categoryIds": [
+        1,
+        2
+      ]
+    },
+    {
+      "title": "Rock Climbing",
+      "description": "Show everyone what you are capable of !",
+      "image": "https://images.unsplash.com/photo-1573811364115-6718a17ce836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3456&q=80",
+      "startTime": "2023-03-31T23:15",
+      "endTime": "2023-04-14T23:15",
+      "createdBy": 1,
+      "id": 7,
+      "location": "Leiden",
+      "categoryIds": [
+        1
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "name": "sports",
+      "id": 1
+    },
+    {
+      "name": "games",
+      "id": 2
+    }
+  ]
+}
